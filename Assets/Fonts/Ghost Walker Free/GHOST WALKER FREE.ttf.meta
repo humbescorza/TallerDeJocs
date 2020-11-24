@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f14ad45e927bbbf45b2736c636d5bff0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GHOST WALKER FREE
+  fontNames:
+  - GHOST WALKER FREE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: da97b8f2d37beda409857b84364e8ed9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
