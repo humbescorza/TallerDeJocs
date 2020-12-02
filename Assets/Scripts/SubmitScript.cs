@@ -46,7 +46,7 @@ public class SubmitScript : MonoBehaviour, IPointerClickHandler
                     return;
                 GameObject destroyed = Instantiate(Gamecontroller.instance.currentScene);
                 Gamecontroller.instance.currentScene = sceneToLoad;
-                Instantiate(sceneToLoad, Gamecontroller.instance.prefabScene);
+                Instantiate(sceneToLoad, Gamecontroller.instance.game.transform);
                 Destroy(Gamecontroller.instance.game.transform.GetChild(0).gameObject);
                 Destroy(destroyed);
             }
