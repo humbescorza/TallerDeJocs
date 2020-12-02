@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B7238310-0A8C-98E8-4E7F-7CB10242C825}</ProjectGuid>
+    <ProjectGuid>{6083D55D-867C-79C7-BFB6-6BE14AD31F58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,43 +62,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CharacterItemSelector.cs" />
+    <Compile Include="Assets\CharacterSelectorManager.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\Ashley.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\Greyson.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\Keanu.cs" />
+    <Compile Include="Assets\Scripts\CharactersScripts\Nora.cs" />
     <Compile Include="Assets\Scripts\Gamecontroller.cs" />
+    <Compile Include="Assets\Scripts\InventoryScript.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemSelector.cs" />
+    <Compile Include="Assets\Scripts\NPCBase.cs" />
+    <Compile Include="Assets\Scripts\NPCHud.cs" />
     <Compile Include="Assets\Scripts\OptionScript.cs" />
     <Compile Include="Assets\Scripts\SceneScript.cs" />
+    <Compile Include="Assets\Scripts\SelectorClick.cs" />
+    <Compile Include="Assets\Scripts\Slot.cs" />
     <Compile Include="Assets\Scripts\SubmitScript.cs" />
-    <Compile Include="Assets\TextManagerScript.cs" />
+    <Compile Include="Assets\Scripts\TextManagerScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Users/Usuario/git/ProyectoPabloAbelHumberto/Proyecto Taller de jocs/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Humberto Senpai/Desktop/TallerDeJocs-main/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

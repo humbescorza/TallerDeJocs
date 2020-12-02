@@ -12,10 +12,18 @@ public class SceneScript : MonoBehaviour
     public bool choose;
     public int currentText;
     public List<Text> texts = new List<Text>();
+    public bool greyson;
+    public bool ashley;
+    public bool keanu;
+    public bool nora;
     public State state;
     public GameObject options;
     void Start()
     {
+        greyson = true;
+        ashley = true;
+        nora = false;
+        keanu = false; 
         state = State.Texting;
         foreach (Transform child in transform.Find("Canvas").Find("Texts"))
         {
